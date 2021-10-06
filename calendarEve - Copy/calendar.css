@@ -1,0 +1,41 @@
+.fc .fc-scroller-harness-liquid {
+    height: 50%!important;
+    box-shadow: 1px 1px 3px #999;
+}
+
+.fc-prev-button {
+    background: #999!important;
+    color: #fff!important;
+    outline: none!important;
+    border: 0!important
+}
+
+.fc-next-button {
+    background: #999!important;
+    color: #fff!important;
+    outline: none!important;
+    border: 0!important;
+    margin: 0 0 0 2px;
+}
+
+.fc .fc-button-group>.fc-button {
+    position: relative;
+    all: unset;
+    background: red!important;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #999;
+    cursor: pointer;
+}
+
+.fc-direction-ltr .fc-button-group>.fc-button:not(:last-child) {
+    border-radius: none!important;
+}
+
+.fc-prev-button.fc-button.fc-button-primary {
+    margin-right: 10px;
+}
